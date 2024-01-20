@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="container">
+        <!-- Nav Bar -->
+        <div class="navbar">
+          <div class="logo_container">
+            <img class="logo" src="Images/User Asset/lofo.png" alt="hurr" />
+            <div class="logo_text">ash Rawat</div>
+            <div class="nav_items">
+              <div><a href="#projecttab">Projects</a></div>
+              <div><a href="#skilltab">Skills</a></div>
+              <div><a href="#Contact me">Contact me</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero_section">
+        <div class="hero_section_left">
+          <div class="hero_section_heading">Hi! Yash Rawat</div>
+          <div class="hero_section_heading hero_section_sub_heading">
+            I am a <span class="role"></span>
+          </div>
+          <div class="hero_section_description">
+            I am a software developer and here is my portfolio website.Here
+            you'll learn about my journey as a software developer.
+          </div>
+          <div class="button_pink" id="button">Hire me</div>
+        </div>
+        <div class="hero_section_right">
+          <div class="userimage">
+            <img src="Images/User Asset/yash.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="faded_text"><p>Yash Rawat</p></div>
+      <div class="projectcontainer">
+        <div class="projects">
+          <div id="projecttab">
+            <div><p id="projects">Projects</p></div>
+          </div>
+          <div class="project1">
+            <img id="img1" src="Images/Project/Project1.png" alt="hi" />
+          </div>
+          <div class="project2">
+            <img id="img2" src="Images/Project/Project2.png" alt="hi" />
+          </div>
+          <div class="project3">
+            <img id="img3" src="Images/Project/Project3.png" alt="hi" />
+          </div>
+        </div>
+      </div>
+      <div class="skilltab"><p id="skilltab">Skills</p></div>
+      <div class="skills">
+        <img class="skill1" src="Images/Stack/CSS.png" alt="" />
+
+        <img class="skill2" src="Images/Stack/HTML.png" alt="" />
+        
+
+        <img class="skill3" src="Images/Stack/React.png" alt="" />
+        <img class="skill4" src="Images/Stack/Tailwind.png" alt="" />
+        <img class="skill5" src="c++.png" alt="" />
+        <img class="skill6" src="Python-removebg-preview.png" alt="" />
+    
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      src="https://kit.fontawesome.com/58a810656e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var typeData = new Typed(".role", {
+        strings: [
+          "Full Stack Developer",
+          "Web Developer",
+          "UI-UX Designer",
+          "Backend Developer",
+          "Coder",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
+    </script>
+  </body>
+</html>
