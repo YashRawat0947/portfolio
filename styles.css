@@ -329,7 +329,7 @@
     }
   }
 }
-@media (min-width: 800px) and (max-width: 1110px) {
+@media (min-width: 900px) and (max-width: 1110px) {
   * {
     margin: 0;
     padding: 0;
@@ -659,7 +659,7 @@
     }
   }
 }
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 1080px) {
   * {
     margin: 0;
     padding: 0;
