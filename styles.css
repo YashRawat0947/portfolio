@@ -915,7 +915,7 @@
   }
   .project1 #img1 {
     position: relative;
-    /* left: -1em; */
+    left: 0em;
     height: 9em;
   }
   .project1 #img1:hover {
@@ -931,7 +931,7 @@
   }
   .project2 #img2 {
     display: flex;
-    right: -1em;
+    right: 0em;
     position: relative;
     height: 10em;
   }
@@ -947,7 +947,7 @@
   }
   .project3 #img3 {
     position: relative;
-    left: -1em;
+    left: 0em;
     height: 12em;
   }
   .project3 #img3:hover {
