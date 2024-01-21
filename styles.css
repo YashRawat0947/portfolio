@@ -329,7 +329,7 @@
     }
   }
 }
-@media (min-width: 900px) and (max-width: 1110px) {
+@media (min-width: 1080px) and (max-width: 1110px) {
   * {
     margin: 0;
     padding: 0;
@@ -885,7 +885,7 @@
     display: flex;
     justify-content: center;
     background-color: grey;
-    width: 375px;
+    width: 100vw;
     height: 39em;
   }
   .projects {
