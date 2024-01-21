@@ -744,7 +744,7 @@
     /* align-items: center; */
     gap: 1rem;
     height: 200px;
-    width: 120px;
+    width: 140px;
     margin-left: 1rem;
     /* width: 100vw; */
   }
@@ -915,7 +915,7 @@
   }
   .project1 #img1 {
     position: relative;
-    left: 0em;
+    left: -1em;
     height: 9em;
   }
   .project1 #img1:hover {
@@ -931,7 +931,7 @@
   }
   .project2 #img2 {
     display: flex;
-    right: 0em;
+    right: -1em;
     position: relative;
     height: 10em;
   }
@@ -947,7 +947,7 @@
   }
   .project3 #img3 {
     position: relative;
-    left: 0em;
+    left: -1em;
     height: 12em;
   }
   .project3 #img3:hover {
