@@ -707,8 +707,8 @@
     display: flex;
     /* justify-content: space-around; */
     gap: 8px;
-    padding-left: 2em;
-    width: 11.5em;
+    padding-left: 3em;
+    width: 12em;
     align-items: center;
   }
   .nav_items div {
