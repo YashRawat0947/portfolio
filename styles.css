@@ -1,4 +1,4 @@
-@media (min-width: 1110px){
+@media (min-width: 1110px) and (max-width: 1456px) {
   * {
     margin: 0;
     padding: 0;
@@ -282,15 +282,7 @@
     justify-content: center;
     font-size: 6em;
   }
-  .skills3 {
-    display: flex;
-    height: 16em;
-    justify-content: space-around;
-
-    background-color: grey;
-    flex-direction: row;
-  }
-  .skills6 {
+  .skills {
     display: flex;
     height: 16em;
     justify-content: space-around;
@@ -320,7 +312,7 @@
     animation: updown 3s linear 2s infinite normal;
   }
   .skill6 {
-    width: 15em;
+    width: 10em;
     height: 10em;
     animation: updown 3s linear 2.5s infinite normal;
   }
@@ -536,6 +528,7 @@
     font-size: 0.5em;
   }
 
+  
   .projectcontainer {
     display: flex;
     justify-content: center;
@@ -619,15 +612,7 @@
     justify-content: center;
     font-size: 4em;
   }
-  .skills3 {
-    display: flex;
-    height: 16em;
-    justify-content: space-around;
-
-    background-color: grey;
-    flex-direction: row;
-  }
-  .skills6 {
+  .skills {
     display: flex;
     height: 16em;
     justify-content: space-around;
@@ -748,8 +733,8 @@
 
     /* justify-content: center; */
     align-items: center;
-    gap: em;
-    margin-top: 1rem;
+    gap: 2em;
+    margin-top: 1rem ;
     padding: 0em;
   }
   .hero_section_left {
@@ -759,7 +744,7 @@
     /* align-items: center; */
     gap: 1rem;
     height: 200px;
-    width: 250px;
+    width: 140px;
     margin-left: 1rem;
     /* width: 100vw; */
   }
@@ -781,12 +766,12 @@
     margin: 0;
     width: 15em;
     font-weight: 400;
-    font-size: 9.7px;
+    font-size: 10px;
   }
   .button_pink {
     display: flex;
     background-color: red;
-    justify-content: center;
+    justify-content:center ;
     width: 80px;
     height: 30px;
     align-items: center;
@@ -847,20 +832,23 @@
     z-index: -9;
   }
   @keyframes scaleimage {
+
     0% {
       height: 150px;
       width: 100px;
-    }
-    50% {
+
+    }    50% {
+
       height: 200px;
       width: 150px;
-    }
-    100% {
+
+    }    100% {
+
       height: 150px;
       width: 100px;
     }
   }
-
+  
   .faded_text {
     display: flex;
     position: relative;
@@ -883,7 +871,7 @@
     top: 0.9em;
     font-size: 0.3em;
   }
-
+  
   .name {
     display: flex;
     justify-content: center;
@@ -972,12 +960,12 @@
     justify-content: center;
     font-size: 2em;
   }
-  .skills3 {
+  .skills {
     display: flex;
     height: 4.5em;
     justify-content: space-around;
     /* justify-items: space-around; */
-    gap: 6em;
+    gap: 0em;
     align-items: center;
     background-color: grey;
     flex-direction: row;
@@ -995,19 +983,7 @@
     height: 3em;
     animation: updown 2s linear 1s infinite normal;
   }
-  .skills6 {
-    display: flex;
-    height: 5em;
-    /* justify-content: space-evenly; */
-    justify-content: space-around;
-    gap: 3.8em;
-    align-items: center;
-    background-color: grey;
-    flex-direction: row;
-  }
   .skill4 {
-    position: relative;
-    left: 10px;
     height: 3em;
     animation: updown 2s linear 1.5s infinite normal;
   }
@@ -1016,7 +992,7 @@
     animation: updown 2s linear 2s infinite normal;
   }
   .skill6 {
-    width: 6em;
+    width: 8em;
     height: 3em;
     animation: updown 2s linear 2.5s infinite normal;
   }
