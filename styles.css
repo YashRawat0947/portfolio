@@ -975,7 +975,7 @@
   .skills3 {
     display: flex;
     height: 4.5em;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     /* justify-items: space-around; */
     gap: 6em;
     align-items: center;
