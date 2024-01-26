@@ -750,7 +750,7 @@
   }
   .hero_section_heading {
     font-size: 20px;
-    width: 170px;
+    width: 190px;
     font-weight: 500;
     color: #343d68;
   }
@@ -773,7 +773,7 @@
     background-color: red;
     justify-content:center ;
     width: 80px;
-    height: 30px;
+    height: 35px;
     align-items: center;
     color: white;
     padding: 0;
