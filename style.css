@@ -327,3 +327,31 @@ align-items: center;
   50%{transform: translateY(-20px);}
   100% { transform: translateY(90px); }
 }
+.contact{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 1.5em;
+}
+.contact a{
+  font-size: 1em;
+  text-decoration: none;
+  color: white;
+}
+
+.social{
+  background-color: #000;
+}
+.contact a{
+  text-decoration: none;
+  color: white;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  gap: 4em;
+}
+.social a{
+  text-decoration: none;
+  color: white;
+}
